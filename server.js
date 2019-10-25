@@ -1,19 +1,20 @@
-require("dotenv").config();
-var key = require("./keys.js");
-var getPass = key.password
-var mysql = require("mysql");
+app.use(express.static("public"));
 
+// Parse request body as JSON
+app.use(express.urlencoded({ extended: true }));
+app.use(express.json());
 
-var connection = mysql.createConnection({
-    host: "localhost",
+// Set Handlebars.
+var exphbs = require("express-handlebars");
 
-    // Your port; if not 3306
-    port: 3306,
+app.engine("handlebars", exphbs({ defaultLayout: "main" }));
+app.set("view engine", "handlebars");
 
-    // Your username
-    user: "root",
+// Import routes and give the server access to them.
+var routes = require("./controllers/burger_controller.js");
 
-    // Your password
-    password: getPass,
-    database: ""
+app.use(routes);
+
+app.listen(PORT, function() {
+  console.log("App now listening at localhost:" + PORT);
 });
