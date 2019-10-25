@@ -1,3 +1,4 @@
+//set up to get password for MySQL
 require("dotenv").config();
 var key = require("./keys.js");
 var getPass = key.password
@@ -25,5 +26,5 @@ connection.connect(function(err) {
   console.log("connected as id " + connection.threadId);
 });
 
-// Export connection for our ORM to use.
+// Export connection for ORM to use.
 module.exports = connection;
