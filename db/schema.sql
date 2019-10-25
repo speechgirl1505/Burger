@@ -8,7 +8,7 @@ CREATE TABLE burgers
 (
     item_id INT NOT NULL AUTO_INCREMENT,
 	burger_name VARCHAR (100) NOT NULL,
-    devoured TINYINT (1) NOT NULL,
+    devoured BOOLEAN DEFAULT false,,
 	PRIMARY KEY (item_id)
 );
 

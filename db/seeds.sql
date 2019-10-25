@@ -1,3 +1,3 @@
-INSERT INTO burgers (burger_name, devoured) VALUES ('Boring Basic Blah', 0),
-                                        ('Bison BBQ Baconator Jr. Jr.', 0),
-                                        ('Sloppy Slopper', 0);
+INSERT INTO burgers (burger_name, devoured) VALUES ('Boring Basic Blah', false),
+                                        ('Bison BBQ Baconator Jr. Jr.', false),
+                                        ('Sloppy Slopper', false);
