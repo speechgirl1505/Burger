@@ -96,6 +96,6 @@ function printQuestionMarks(num) {
         cb(result);
       });
     }
-  };
+  }; 
 
 module.exports = orm;
