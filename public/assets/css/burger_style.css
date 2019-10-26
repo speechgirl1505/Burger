@@ -1,9 +1,11 @@
 * {
+    /* font-family: 'Fontdiner Swanky', cursive; */
+/* font-family: 'Rum Raisin', sans-serif; */
 /* font-family: 'Fascinate Inline', cursive; */
 /* font-family: 'Trochut', cursive; */
 font-family: 'Wendy One', sans-serif;
-/* font-family: 'Fontdiner Swanky', cursive; */
-/* font-family: 'Rum Raisin', sans-serif; */
+box-sizing: border-box;
+
 }
 
 body {
@@ -13,17 +15,52 @@ body {
     text-align: center;
     padding: 0%;
     margin: 0%;
-    font-size: 70px;
+    font-size: 100px !important;
     color: rgb(230, 32, 32);
     /* background-color: aquamarine; */
     /* background-image: url(../img/dinerbench.jpeg); */
-    background-size: cover;
+    background-color:transparent !important;
     /* background: url(/assets/img/big-cheese.jpg) center no-repeat; */
 }
 
 button {
-font-size: 18px;
+background-color: red;
+/* display:inline-block; */
+
+border:0.16em solid rgba(255,255,255,0);
+
+text-decoration: none;
+font-family:'Roboto',sans-serif;
+font-size: 15px;
+font-weight:300;
+color:rgb(248, 244, 244);
+text-shadow: 0 0.04em 0.04em rgba(0,0,0,0.35);
+text-align:center;
+transition: all 0.2s;
 }
+    
+button:hover{
+border-color: rgb(20, 17, 17);
+}
+
+.canYouSeeMeNow, .canYouSeeMeNow2 {
+background-color: rgb(248, 244, 244);
+opacity: .7;
+}
+
+.canYouSeeMeNow2 {
+text-align: center;
+}
+
+/* .fas {
+display: inline-block;
+text-align: center;
+width: 100%;
+line-height: 18px;
+color: rgb(214, 46, 46);
+font-size: 28px;
+padding: 0;
+} */
 
 ul {
     font-size: 25px;

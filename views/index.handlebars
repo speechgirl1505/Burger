@@ -1,31 +1,48 @@
 {{!-- <h1>Burgers!</h1> --}}
+<div class="container-fluid" >
+  	<div class="jumbotron jumbotron-fluid">
+		<h1 class="display-4">Burger Bliss</h1>
+	</div>
+ 
+  <div class="row canYouSeeMeNow">
+    <div class="col-6">
+     <h1>Burgers waiting to be Eaten!</h1>
 
-<h1>Burgers waiting to be Eaten!</h1>
 
-<ul class="left" style="text-align:left">
+<ul>
   {{#each burgers}}
     {{#unless devoured}}
       {{> burgers/burgerB devoured=true}}
     {{/unless}}
   {{/each}}
 </ul>
+</div>
+  
+    <div class="col-6">
+     <h1>Burgers that have been Devoured!</h1>
 
-<h1 style="text-align:right">Burgers that have been Devoured!</h1>
-
-<ul class="right" style="text-align:right">
+<ul>
   {{#each burgers}}
     {{#if devoured}}
       {{> burgers/burgerB devoured=false}}
     {{/if}}
   {{/each}}
 </ul>
+    </div>
+  </div>
+</div>
 
-<h1 style="text-align:center">Add a Burger</h1>
+ <div class="row canYouSeeMeNow2">
+    <div class="col">
+<i class="fas fa-hamburger"></i>
+<h1>Add a Burger</h1>
 <form class="create-form">
   <div class="form-group">
     <label for="burg">Burger:</label>
-    <input type="text" id="burg" name="name">
+    <textarea type="text" id="burg" name="name"></textarea>
   </div>
 
   <button type="submit">Add My Burger</button>
 </form>
+    </div>
+ </div>
