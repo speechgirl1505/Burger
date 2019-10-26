@@ -1,8 +1,8 @@
-<h1>Burgers!</h1>
+{{!-- <h1>Burgers!</h1> --}}
 
-<h2>Burgers waiting to be Eaten!</h2>
+<h1>Burgers waiting to be Eaten!</h1>
 
-<ul>
+<ul class="left" style="text-align:left">
   {{#each burgers}}
     {{#unless devoured}}
       {{> burgers/burgerB devoured=true}}
@@ -10,9 +10,9 @@
   {{/each}}
 </ul>
 
-<h2>Burgers that have been devoured</h2>
+<h1 style="text-align:right">Burgers that have been Devoured!</h1>
 
-<ul>
+<ul class="right" style="text-align:right">
   {{#each burgers}}
     {{#if devoured}}
       {{> burgers/burgerB devoured=false}}
@@ -20,7 +20,7 @@
   {{/each}}
 </ul>
 
-<h2>Add a Burger</h2>
+<h1 style="text-align:center">Add a Burger</h1>
 <form class="create-form">
   <div class="form-group">
     <label for="burg">Burger:</label>
