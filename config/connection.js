@@ -1,6 +1,6 @@
 //set up to get password for MySQL
 require("dotenv").config();
-var key = require("./keys.js");
+var key = require("../keys");
 var getPass = key.password
 var mysql = require("mysql");
 
