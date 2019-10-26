@@ -36,16 +36,23 @@ body {
     transition: .4s;
 }
 
+button:hover {
+    color: black;
+    border: 2px solid black;
+}
+
 h1 {
+    
     text-shadow: 1px 1px #dd0808
 }
 
 .canYouSeeMeNow, .canYouSeeMeNow2 {
-background-color: rgb(248, 244, 244);
-opacity: .8;
+background-color: rgba(248, 244, 244, .7);
+/* opacity: .8; */
 }
 
 .canYouSeeMeNow2 {
+padding-top: 4em;
 text-align: center;
 }
 
@@ -62,6 +69,18 @@ color: rgb(214, 46, 46);
 font-size: 28px;
 padding: 0;
 } */
+
+textarea.sm-textarea {
+    box-sizing: content-box;
+    border: none;
+    border-bottom: 2px solid #ff1e00;
+    box-shadow: none;
+    background-color: transparent;
+    resize: none;
+    font-size: 20px;
+  }
+  
+ 
 
 ul {
     font-size: 25px;

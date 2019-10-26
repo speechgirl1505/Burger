@@ -2,12 +2,13 @@
 <div class="container-fluid" >
   	<div class="jumbotron jumbotron-fluid">
 		<h1 class="display-4">Burger Bliss</h1>
+    
 	</div>
  
   <div class="row canYouSeeMeNow">
     <div class="col-6">
-     <h1>Burgers waiting to be Eaten!</h1>
-
+     <h1>Waiting to be Eaten!</h1>
+<hr>
 
 <ul>
   {{#each burgers}}
@@ -19,7 +20,8 @@
 </div>
   
     <div class="col-6">
-     <h1>Burgers that have been Devoured!</h1>
+     <h1> Devoured!</h1>
+     <hr>
 
 <ul>
   {{#each burgers}}
@@ -35,11 +37,12 @@
  <div class="row canYouSeeMeNow2">
     <div class="col">
 <i class="fas fa-hamburger"></i>
-<h1>Add a Burger</h1>
+<h1>Add Your Own Burger
+</h1>
 <form class="create-form">
-  <div class="form-group">
-    <label for="burg">Burger:</label>
-    <textarea type="text" id="burg" name="name"></textarea>
+  <div class="form-group sm-textarea">
+    {{!-- <label for="burg">Burger:</label> --}}
+    <textarea type="text" id="burg" name="name" class="sm-textarea" rows="1"></textarea>
   </div>
 
   <button class="square_btn" type="submit">Add My Burger</button>
