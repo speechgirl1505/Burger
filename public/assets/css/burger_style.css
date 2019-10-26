@@ -5,51 +5,52 @@
 /* font-family: 'Trochut', cursive; */
 font-family: 'Wendy One', sans-serif;
 box-sizing: border-box;
-
 }
 
 body {
     background-image: url(../img/dinerbench.jpeg);
 }
+
 .jumbotron {
     text-align: center;
     padding: 0%;
     margin: 0%;
     font-size: 100px !important;
     color: rgb(230, 32, 32);
-    /* background-color: aquamarine; */
-    /* background-image: url(../img/dinerbench.jpeg); */
     background-color:transparent !important;
-    /* background: url(/assets/img/big-cheese.jpg) center no-repeat; */
+}
+.jumbotron .display-4 {
+    font-size: 100px !important;
+    text-shadow: 3px 3px #0c0c0c
 }
 
-button {
-background-color: red;
-/* display:inline-block; */
-
-border:0.16em solid rgba(255,255,255,0);
-
-text-decoration: none;
-font-family:'Roboto',sans-serif;
-font-size: 15px;
-font-weight:300;
-color:rgb(248, 244, 244);
-text-shadow: 0 0.04em 0.04em rgba(0,0,0,0.35);
-text-align:center;
-transition: all 0.2s;
+.square_btn{
+    display: inline-block;
+    padding: 7px 12px;
+	border-radius: 25px;
+    text-decoration: none;
+    font-size: 15px;
+    color: #FFF;
+    background-image: -webkit-linear-gradient(45deg, rgb(243, 157, 146) 0%, #e71010 100%);
+    background-image: linear-gradient(45deg, rgb(243, 157, 146) 0%, #e71010 100%);
+    transition: .4s;
 }
-    
-button:hover{
-border-color: rgb(20, 17, 17);
+
+h1 {
+    text-shadow: 1px 1px #dd0808
 }
 
 .canYouSeeMeNow, .canYouSeeMeNow2 {
 background-color: rgb(248, 244, 244);
-opacity: .7;
+opacity: .8;
 }
 
 .canYouSeeMeNow2 {
 text-align: center;
+}
+
+label {
+    font-size: 25px;
 }
 
 /* .fas {
@@ -64,6 +65,10 @@ padding: 0;
 
 ul {
     font-size: 25px;
+}
+
+li {
+    padding: 3px;
 }
 
 form {
