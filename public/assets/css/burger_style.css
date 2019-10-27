@@ -1,9 +1,6 @@
 * {
-    /* font-family: 'Fontdiner Swanky', cursive; */
-/* font-family: 'Rum Raisin', sans-serif; */
-/* font-family: 'Fascinate Inline', cursive; */
-/* font-family: 'Trochut', cursive; */
-font-family: 'Wendy One', sans-serif;
+    font-family: 'Cherry Cream Soda', cursive;
+    /* font-family: 'Wendy One', sans-serif; */
 box-sizing: border-box;
 }
 
@@ -60,7 +57,7 @@ label {
     font-size: 25px;
 }
 
-/* .fas {
+i {
 display: inline-block;
 text-align: center;
 width: 100%;
@@ -68,7 +65,7 @@ line-height: 18px;
 color: rgb(214, 46, 46);
 font-size: 28px;
 padding: 0;
-} */
+}
 
 textarea.sm-textarea {
     box-sizing: content-box;
