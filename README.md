@@ -8,7 +8,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-  <h3 align="center">Burger</h3>
+  <h1 align="center">Burger</h1>
     <a href="https://github.com/speechgirl1505/Burger"><strong>Documentation and Repo Link</strong></a>
     <br />
     
@@ -24,9 +24,8 @@
   - [Organization](#Organization)
 - [Getting Started](#getting-started)
   - [Installation](#installation)
-- [Contact](#contact)
 - [Acknowledgements](#acknowledgements)
-
+- [Contact](#contact)
 <!-- ABOUT THE PROJECT -->
 
 ## About The Project
@@ -63,16 +62,15 @@ git clone https://github.com/speechgirl1505/Burger.git
 npm install
 ```
 
-3. Create an `.env` to hide your own mysql password that is required to run the app.
+3. Create an `.env` to hide your mysql password that is required to run the app.
 
 ```
-# MysqlKeys
+# MySQLKeys
 
 MYSQLKEYS=YourPassWordHere
 ```
 
-<!-- CONTACT -->
-
+<!-- Acknowledgements -->
 
 ## Acknowledgements
     - TA Cody Clark 
@@ -80,11 +78,14 @@ MYSQLKEYS=YourPassWordHere
     - Fellow Students A.L and J.T
     - Some code was influenced by SMU Bootcamp class activties
 
+<!-- CONTACT -->
+
 ## Contact
 
-Role Lead Developer for Burger Kala Elam
+Role Lead Developer for Burger: Kala Elam
 
 App is also deployed on [Heroku](https://www.heroku.com/home)
+
 Project Link: [https://github.com/speechgirl1505/Burger](https://github.com/speechgirl1505/Burger)
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
