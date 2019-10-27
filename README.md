@@ -73,10 +73,18 @@ MYSQLKEYS=YourPassWordHere
 
 <!-- CONTACT -->
 
+
+## Acknowledgements
+    - TA Cody Clark 
+    - TA Shawn Holcomb
+    - Fellow Students A.L and J.T
+    - Some code was influenced by SMU Bootcamp class activties
+
 ## Contact
 
 Role Lead Developer for Burger Kala Elam
 
+App is also deployed on [Heroku](https://www.heroku.com/home)
 Project Link: [https://github.com/speechgirl1505/Burger](https://github.com/speechgirl1505/Burger)
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
