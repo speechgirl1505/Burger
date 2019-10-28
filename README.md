@@ -30,7 +30,7 @@
 
 ## About The Project
 
-This app is all about Burgers! Yum!! 
+This app is all about Burgers! Eat one of the burgers on the menu or you can add your own. To eat a burger hit the devor button and the burger will move to the devoured column, showing all the burgers that have already been devoured . 
 
 ### Built With
 
@@ -40,6 +40,7 @@ This app is all about Burgers! Yum!!
 - [Node Package - DotEnv](https://www.npmjs.com/package/dotenv)
 - [Node Package - mysql](https://www.npmjs.com/package/mysql)
 - [othneildrew - Best README Template](https://github.com/othneildrew/Best-README-Template)
+- [Heroku](https://www.heroku.com/platform)
 
 
 <!-- GETTING STARTED -->
@@ -84,7 +85,7 @@ MYSQLKEYS=YourPassWordHere
 
 Role Lead Developer for Burger: Kala Elam
 
-App is also deployed on [Heroku](https://www.heroku.com/home)
+App is also deployed on [Heroku](https://biteme-burger-bliss.herokuapp.com/)
 
 Project Link: [https://github.com/speechgirl1505/Burger](https://github.com/speechgirl1505/Burger)
 <!-- MARKDOWN LINKS & IMAGES -->
