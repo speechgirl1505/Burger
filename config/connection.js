@@ -4,7 +4,9 @@ var key = require("../keys");
 var getPass = key.password
 var mysql = require("mysql");
 
-
+if (process.env.JAWSDB_URL){
+  connection = mysql.createConnection(process.env.JAWSDB_URL)
+} else {
 var connection = mysql.createConnection({
     host: "localhost",
 
@@ -15,6 +17,7 @@ var connection = mysql.createConnection({
     password: getPass,
     database: "burgers_db"
 });
+};
 
 
 // Make connection.
