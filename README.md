@@ -30,7 +30,7 @@
 
 ## About The Project
 
-This app is all about Burgers! Eat one of the burgers on the menu or you can add your own. To eat a burger hit the devor button and the burger will move to the devoured column, showing all the burgers that have already been devoured . 
+This app is all about Burgers! Eat one of the burgers on the menu or you can add your own. To eat a burger hit the devour button and the burger will move to the devoured column, showing all the burgers that have already been devoured . 
 
 ### Built With
 
@@ -46,8 +46,6 @@ This app is all about Burgers! Eat one of the burgers on the menu or you can add
 <!-- GETTING STARTED -->
 
 ## Getting Started
-
-
 
 ### Installation
 
